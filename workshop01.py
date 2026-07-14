@@ -1,0 +1,8 @@
+quantity = int(input("จำนวนปืน : "))
+cost_price = int(input("ต้นทุน : "))
+sell_price = int(input ("ขาย : "))
+team_members = int(input ("จำนวนลูกทีม : "))
+print(quantity * cost_price)
+print(sell_price * quantity)
+print(sell_price * quantity - quantity * cost_price)
+print()
